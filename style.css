@@ -1235,11 +1235,11 @@ text-transform: none !important;
     right: 15px;
     display: none;
     border-radius: 97px;
-    background-color: black;
-    border-color: black;
+    background-color: #fff;
+    border-color:#fff;
   }
   .scroll-top i {
     display: inline-block;
-    color: #fff;
+    color: black;
     margin-bottom: 5px;
   }
