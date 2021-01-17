@@ -120,12 +120,9 @@ jQuery(document).ready(function ($) {
                     }
                 }
 
-                //setting the left positioned item
                 if (positionvalue == 'leftposition') {
-                    //left positioned image should always be one left than main positioned image.
                     position = startItem - 1;
 
-                    //reset last image in list to left position if first image is in main position
                     if (position < 1) {
                         position = itemCount;
                     }
@@ -283,4 +280,5 @@ jQuery(document).ready(function ($) {
 
     }
 
+    
 });

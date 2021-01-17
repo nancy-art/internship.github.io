@@ -394,7 +394,7 @@ nav.navbar {
 }
 
 
-/*end of counter up*/
+/*
 
 .calculate_area {
     padding: 100px 0;
@@ -438,18 +438,7 @@ nav.navbar {
     position: relative;
 }
 
-.single_calculate select {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    background: transparent none repeat scroll 0 0;
-    border: none;
-    color: #22313f;
-    display: inline-block;
-    font-family: "montserratsemi_bold";
-    height: 100%;
-    width: 100%;
-    padding-left: 10px;
-}
+
 
 .single_calculate > input {
     border: none;
@@ -558,7 +547,7 @@ nav.navbar {
     color: #f9bf3b
 }
 
-
+*/
 
 .pricing-area {
     padding-bottom: 57px;
@@ -1135,17 +1124,17 @@ outline: none;
 box-shadow: none;
 }
 .footer{
-    background: darkkhaki;
+    background-image: url(img/f.jpg);
 }
 .footer-top { 
     padding: 60px 0; 
     text-align: left; 
-    color: rgb(12, 12, 12); 
-    color: rgba(10, 10, 10, 0.8); 
+    color: rgb(255, 253, 253); 
+    color: hsl(0, 33%, 99%); 
 }
 .footer-top h3 { 
     padding-bottom: 28px;
-    color: rgb(14, 13, 13); 
+    color: rgb(255, 254, 254); 
     margin-left: 28px;
 
 }
@@ -1163,17 +1152,17 @@ box-shadow: none;
 .footer-contact i {
      padding-right: 10px; 
      font-size: 18px; 
-     color: rgb(75, 80, 14); 
-     color: rgba(14, 13, 13, 0.5); 
+     color: rgb(255, 255, 255); 
+     color: rgba(255, 255, 255); 
     }
 
 .footer-links a { 
-    color: rgb(18, 74, 228); 
-    color: rgba(15, 15, 15, 0.8); 
+    color: #f9bf3b; 
+    color: rgba(255, 255, 255); 
     border: 0;
  }
 .footer-links a:hover, .footer-links a:focus { 
-    color: #fdfcf9; 
+    color: #f9bf3b; 
 }
 
 .footer-bottom {
@@ -1186,15 +1175,19 @@ box-shadow: none;
 .footer-social {
     padding-top: 33px;
     text-align: right;
-    margin-left: 285px;
+    margin-left: 574px;
 }
 .footer-social a {
      margin-left: 20px;
-     color: #000407;   
+     color: #ffffff;   
       border: 0;
      }
+     .row1{
+            margin-bottom: -1px;
+            margin-top: -19px;
+        }
 .footer-social a:hover, .footer-social a:focus {
-    color: #faf9f8; 
+    color: #f9bf3b; 
      border: 0; 
     }
     .footer-cop{
@@ -1231,4 +1224,22 @@ font-size:18px;
 .ks a{
 text-transform: none !important;
 }
-
+.fadeInUp{
+    margin-left: 46px;
+}
+.scroll-top {
+    width: 40px;
+    height: 39px;
+    position: fixed;
+    bottom: 69px;
+    right: 15px;
+    display: none;
+    border-radius: 97px;
+    background-color: black;
+    border-color: black;
+  }
+  .scroll-top i {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 5px;
+  }
